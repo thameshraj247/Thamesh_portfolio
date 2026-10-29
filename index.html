@@ -1,0 +1,1070 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thamesh Raj G | Java Full Stack Web Developer</title>
+  <meta name="description" content="Professional portfolio of Thamesh raj G — Associate Software Developer and Java Full Stack Web Developer.">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23070709'/><text x='50%' y='62%' font-family='sans-serif' font-weight='800' font-size='48' fill='%23FF2E4C' text-anchor='middle'>TG</text></svg>">
+
+  <!-- Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Clean Professional Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Futuristic Custom Cursor System (Dot, Kinetic Ring & Ambient Spotlight) -->
+  <div class="custom-cursor-dot" id="cursorDot"></div>
+  <div class="custom-cursor-ring" id="cursorRing"></div>
+  <div class="custom-cursor-glow" id="cursorGlow"></div>
+
+  <!-- Warp Jump Laser Tunnel Overlay for Contact Me -->
+  <div class="warp-jump-overlay" id="warpJumpOverlay">
+    <div class="warp-laser-tunnel">
+      <div class="warp-ring w-ring-1"></div>
+      <div class="warp-ring w-ring-2"></div>
+      <div class="warp-ring w-ring-3"></div>
+      <div class="warp-ring w-ring-4"></div>
+      <div class="warp-particle-burst"></div>
+    </div>
+    <div class="warp-hud-text">
+      <span class="warp-glitch-text"><i class="fas fa-satellite-dish fa-spin"></i> ESTABLISHING SECURE COMMS LINK</span>
+      <span class="warp-sub-text">WARPING TO TRANSMISSION TERMINAL...</span>
+    </div>
+  </div>
+
+  <!-- Top Progress Line -->
+  <div class="scroll-progress-line" id="scrollProgressLine"></div>
+
+  <!-- Dynamic Cosmic Red Ambient Mesh Orbs & Interactive Particle Canvas -->
+  <div class="cosmic-mesh-bg">
+    <div class="glow-orb glow-orb-1"></div>
+    <div class="glow-orb glow-orb-2"></div>
+    <div class="glow-orb glow-orb-3"></div>
+  </div>
+  <canvas id="bgCanvas" class="canvas-bg"></canvas>
+  <div class="bg-grid"></div>
+
+  <!-- Header Navigation -->
+  <header class="header-wrap" id="mainHeader">
+    <nav class="nav-bar">
+      <div class="nav-laser-beam"></div>
+
+      <a href="#hero" class="nav-brand">
+        <div class="nav-avatar-ring">
+          <img src="profile.jpg" alt="Thamesh raj G" class="nav-avatar">
+          <span class="nav-live-dot" title="Available for Opportunities"></span>
+        </div>
+        <div class="nav-brand-info">
+          <span class="nav-brand-text">Thamesh Raj G</span>
+          <span class="nav-brand-role"><i class="fas fa-terminal"></i> Java Full Stack Dev</span>
+        </div>
+      </a>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#about" class="nav-link"><i class="fas fa-user-astronaut nav-icon"></i> <span>About</span></a></li>
+        <li><a href="#skills" class="nav-link"><i class="fas fa-layer-group nav-icon"></i> <span>Skills</span></a></li>
+        <li><a href="#projects" class="nav-link"><i class="fas fa-code-branch nav-icon"></i> <span>Projects</span></a></li>
+        <li><a href="#experience" class="nav-link"><i class="fas fa-briefcase nav-icon"></i> <span>Experience</span></a></li>
+        <li><a href="#contact" class="nav-link"><i class="fas fa-envelope nav-icon"></i> <span>Contact</span></a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-primary btn-sm nav-cta-btn contact-trigger-btn">
+          <span>Let's Talk</span>
+          <i class="fas fa-arrow-right"></i>
+        </a>
+        <button class="mobile-toggle" id="mobileNavToggle" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <section id="hero" class="hero-section">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <span class="section-badge">
+            <span class="badge-dot"></span>
+            Associate Software Developer
+          </span>
+
+          <h1 class="hero-title">
+            <span class="hero-greeting">Hii</span>
+            <span class="hero-intro-line">I'm <span class="hero-name-animated" data-text="Thamesh Raj">Thamesh Raj</span></span>
+            <span class="hero-title-sub">Java Full Stack Web Developer &amp; AI Engineer.</span>
+          </h1>
+
+          <p class="hero-desc">
+            Passionate software engineer with hands-on experience in building scalable backends using Core Java, Spring Boot, and MySQL, paired with clean, responsive user interfaces.
+          </p>
+
+          <div class="hero-ctas">
+            <a href="#projects" class="btn btn-primary">
+              <span>View Projects</span>
+              <i class="fas fa-arrow-down"></i>
+            </a>
+            <a href="#contact" class="btn btn-secondary contact-trigger-btn">
+              <span>Contact Me</span>
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+
+          <div class="hero-socials">
+            <a href="https://github.com/thameshraj247" target="_blank" rel="noopener noreferrer" class="social-link">
+              <i class="fab fa-github"></i>
+              <span>GitHub</span>
+            </a>
+            <a href="https://www.linkedin.com/in/thamesh-raj-g-647050278/" target="_blank" rel="noopener noreferrer" class="social-link">
+              <i class="fab fa-linkedin"></i>
+              <span>LinkedIn</span>
+            </a>
+            <a href="mailto:tamilthamesh247@gmail.com" class="social-link">
+              <i class="fas fa-envelope"></i>
+              <span>tamilthamesh247@gmail.com</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Ultra-Modern 3D Interactive Profile Showcase -->
+        <div class="hero-photo-wrap" id="heroPhotoWrap">
+          <div class="hero-photo-ambient"></div>
+          <div class="hero-photo-card flip-card-3d" id="heroPhotoCard">
+            <!-- Front Face: Hero Card View -->
+            <div class="flip-face flip-face-front">
+              <div class="hero-photo-viewport">
+                <!-- Cosmic Pulsing Background Rings & Energy Particle Effects -->
+                <div class="photo-backdrop-fx">
+                  <div class="fx-ring fx-ring-1"></div>
+                  <div class="fx-ring fx-ring-2"></div>
+                  <div class="fx-ring fx-ring-3"></div>
+                  <div class="fx-pulse-glow"></div>
+                  <div class="fx-orbital-dot fx-dot-1"></div>
+                  <div class="fx-orbital-dot fx-dot-2"></div>
+                  <div class="fx-orbital-dot fx-dot-3"></div>
+                </div>
+                <img src="profile-designer.png" alt="Thamesh Raj - Java Full Stack Developer" class="hero-photo">
+                <div class="hero-photo-vignette"></div>
+                <div class="hero-photo-glint"></div>
+              </div>
+              <div class="hero-photo-badge">
+                <div class="hero-quote-line">
+                  <i class="fas fa-quote-left quote-icon"></i>
+                  <span>“Driven by Passion, Defined by Code.”</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Back Face: Mirrored Content Duplicate (clean and identical to front face) -->
+            <div class="flip-face flip-face-back">
+              <div class="hero-photo-viewport">
+                <!-- Cosmic Pulsing Background Rings & Energy Particle Effects -->
+                <div class="photo-backdrop-fx">
+                  <div class="fx-ring fx-ring-1"></div>
+                  <div class="fx-ring fx-ring-2"></div>
+                  <div class="fx-ring fx-ring-3"></div>
+                  <div class="fx-pulse-glow"></div>
+                  <div class="fx-orbital-dot fx-dot-1"></div>
+                  <div class="fx-orbital-dot fx-dot-2"></div>
+                  <div class="fx-orbital-dot fx-dot-3"></div>
+                </div>
+                <img src="profile-designer.png" alt="Thamesh Raj - Java Full Stack Developer" class="hero-photo">
+                <div class="hero-photo-vignette"></div>
+                <div class="hero-photo-glint"></div>
+              </div>
+              <div class="hero-photo-badge">
+                <div class="hero-quote-line">
+                  <i class="fas fa-quote-left quote-icon"></i>
+                  <span>“Driven by Passion, Defined by Code.”</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section-spacing">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">About Me</span>
+        <h2 class="section-title">Engineering Solutions with Purpose & Precision</h2>
+      </div>
+
+      <div class="about-grid">
+        <!-- Docking Station Target for the Travelling Hero Card -->
+        <div class="about-image-column">
+          <div class="about-photo-wrapper" id="aboutPhotoDock">
+            <div class="about-dock-silhouette">
+              <div class="dock-hologram-grid"></div>
+              <div class="dock-brackets"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-text-column">
+          <div class="about-text">
+            <p>
+              I am a <strong>Java Full Stack Web Developer</strong> holding a B.Tech in Artificial Intelligence and Data Science from Paavai College of Engineering (graduating with an 8.21 CGPA).
+            </p>
+          </div>
+
+          <div class="pro-card competencies-card">
+            <h4>Core Competencies</h4>
+            <ul class="competencies-list">
+              <li><i class="fas fa-check-circle"></i> Full-Stack Java Web Architecture</li>
+              <li><i class="fas fa-check-circle"></i> Object-Oriented Programming (OOP)</li>
+              <li><i class="fas fa-check-circle"></i> Relational Database Design & SQL Optimization</li>
+              <li><i class="fas fa-check-circle"></i> RESTful API Implementation</li>
+              <li><i class="fas fa-check-circle"></i> Responsive Front-End Interfaces</li>
+              <li><i class="fas fa-check-circle"></i> Git Version Control & Maven Build Management</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section-spacing" style="background: rgba(14, 15, 20, 0.45);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Technical Stack</span>
+        <h2 class="section-title">Languages, Frameworks & Tools</h2>
+        <p class="section-subtitle">A verified overview of the tools and technologies I utilize to build modern software solutions.</p>
+      </div>
+
+      <div class="skills-grid">
+    
+        <div class="pro-card skill-category-card">
+          <div class="category-title-wrap">
+            <div class="category-icon"><i class="fas fa-server"></i></div>
+            <h3>Backend & Database</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Core Java</span>
+            <span class="skill-tag">Java EE (JEE)</span>
+            <span class="skill-tag">Servlets & JSP</span>
+            <span class="skill-tag">JDBC</span>
+            <span class="skill-tag">Spring Boot</span>
+            <span class="skill-tag">Spring MVC</span>
+            <span class="skill-tag">Hibernate</span>
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">REST APIs</span>
+          </div>
+        </div>
+
+    
+        <div class="pro-card skill-category-card">
+          <div class="category-title-wrap">
+            <div class="category-icon"><i class="fas fa-code"></i></div>
+            <h3>Frontend Development</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS3</span>
+            <span class="skill-tag">JavaScript (ES6+)</span>
+            <span class="skill-tag">Responsive Web Design</span>
+            <span class="skill-tag">Flexbox & Grid</span>
+            <span class="skill-tag">UI Implementation</span>
+          </div>
+        </div>
+
+  
+        <div class="pro-card skill-category-card">
+          <div class="category-title-wrap">
+            <div class="category-icon"><i class="fas fa-tools"></i></div>
+            <h3>Tools & Workflows</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Visual Studio Code</span>
+            <span class="skill-tag">Eclipse IDE</span>
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">GitHub</span>
+            <span class="skill-tag">Apache Maven</span>
+            <span class="skill-tag">Apache Tomcat</span>
+            <span class="skill-tag">OOP Principles</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section-spacing">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Portfolio</span>
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-subtitle">Real-world applications engineered with Java backend frameworks, relational databases, and modern frontends.</p>
+      </div>
+
+      <div class="projects-showcase-flow">
+      
+        <article class="matrix-dossier-card" data-scroll-reveal>
+          <div class="matrix-card-border-glow"></div>
+          <div class="matrix-scan-overlay"></div>
+
+     
+          <div class="matrix-top-bar">
+            <div class="matrix-traffic-lights">
+              <span class="m-dot red"></span>
+              <span class="m-dot yellow"></span>
+              <span class="m-dot green"></span>
+            </div>
+            <div class="matrix-bar-title">
+              <i class="fas fa-terminal"></i>
+              <span>bash - dossier://feasto-engine.java.bin</span>
+            </div>
+            <div class="matrix-bar-status">
+              <span class="matrix-live-pill"><span class="matrix-ping"></span> ONLINE</span>
+            </div>
+          </div>
+
+          <div class="matrix-grid-body">
+          
+            <div class="matrix-briefing-pane">
+              <div class="matrix-dossier-index">
+                <span class="m-index-tag">FILE_REF #01</span>
+                <span class="m-class-tag">[FULL_STACK_JAVA]</span>
+              </div>
+
+              <h3 class="matrix-headline">Food Delivery Application (Feasto)</h3>
+
+              <p class="matrix-summary">
+                Architected and developed a full-stack food delivery web application that enables users to browse local restaurants, view categorized culinary menus, place dynamic orders, and track order progression through a scalable architecture.
+              </p>
+
+              <div class="matrix-specs-table">
+                <div class="matrix-spec-row">
+                  <span class="spec-label">ARCHITECTURE:</span>
+                  <span class="spec-val">Java Servlets & JSP &bull; MVC</span>
+                </div>
+                <div class="matrix-spec-row">
+                  <span class="spec-label">DATABASE:</span>
+                  <span class="spec-val">MySQL Relational Engine</span>
+                </div>
+                <div class="matrix-spec-row">
+                  <span class="spec-label">CONNECTIVITY:</span>
+                  <span class="spec-val">JDBC PreparedStatements Pool</span>
+                </div>
+                <div class="matrix-spec-row">
+                  <span class="spec-label">SERVER:</span>
+                  <span class="spec-val">Apache Tomcat HTTP 10.1</span>
+                </div>
+              </div>
+
+              <div class="matrix-tags-row">
+                <span>Java</span>
+                <span>Servlets</span>
+                <span>JSP</span>
+                <span>JDBC</span>
+                <span>MySQL</span>
+                <span>Apache Tomcat</span>
+              </div>
+
+              <div class="matrix-actions-row">
+                <a href="https://github.com/thameshraj247" target="_blank" rel="noopener noreferrer" class="matrix-btn primary">
+                  <i class="fab fa-github"></i>
+                  <span>VIEW_SOURCE.SH</span>
+                </a>
+                <button class="matrix-btn run-sim-btn" data-sim-target="sim-feasto">
+                  <i class="fas fa-play"></i>
+                  <span>EXECUTE_SIM()</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Right Interactive Terminal Simulator with 3D Holographic Model View -->
+            <div class="matrix-terminal-pane">
+              <div class="matrix-term-tabs">
+                <button class="m-term-tab active" data-tab="feasto-3d"><i class="fas fa-cube"></i> 3D_MODEL</button>
+                <button class="m-term-tab" data-tab="feasto-ui"><i class="fas fa-layer-group"></i> UI_PREVIEW</button>
+                <button class="m-term-tab" data-tab="feasto-run"><i class="fas fa-terminal"></i> RUNTIME</button>
+                <button class="m-term-tab" data-tab="feasto-schema"><i class="fas fa-database"></i> SQL_SCHEMA</button>
+              </div>
+
+              <div class="matrix-console-box" id="sim-feasto">
+                <!-- 3D Interactive Isometric Server & Data Vault Model -->
+                <div class="m-tab-view active" id="feasto-3d">
+                  <div class="model-3d-viewport" data-model="feasto">
+                    <div class="model-3d-scene">
+                      <div class="holo-orbit-ring ring-outer"></div>
+                      <div class="holo-orbit-ring ring-mid"></div>
+
+                      <!-- 3D Isometric Server & Database Core Cube -->
+                      <div class="iso-cube-container">
+                        <div class="iso-cube">
+                          <div class="cube-face face-front"><i class="fas fa-server"></i><span>TOMCAT 10</span></div>
+                          <div class="cube-face face-back"><i class="fas fa-database"></i><span>MYSQL 8</span></div>
+                          <div class="cube-face face-right"><i class="fas fa-plug"></i><span>JDBC POOL</span></div>
+                          <div class="cube-face face-left"><i class="fas fa-code"></i><span>SERVLET</span></div>
+                          <div class="cube-face face-top"><i class="fas fa-fire-burner"></i><span>FEASTO CORE</span></div>
+                          <div class="cube-face face-bottom"></div>
+                        </div>
+                      </div>
+
+                      <!-- Floating 3D Satellite Nodes -->
+                      <div class="satellite-node node-1"><i class="fas fa-utensils"></i><span>Order API</span></div>
+                      <div class="satellite-node node-2"><i class="fas fa-users"></i><span>Auth User</span></div>
+                      <div class="satellite-node node-3"><i class="fas fa-receipt"></i><span>Billing SQL</span></div>
+
+                      <!-- Ground Holographic Grid Projector -->
+                      <div class="holo-ground-projector"></div>
+                    </div>
+                    <div class="model-3d-telemetry">
+                      <span><i class="fas fa-arrows-spin fa-spin"></i> 3D ISO ENGINE: ACTIVE</span>
+                      <span>ROTATE: MOUSE INTERACTIVE</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- UI/UX Interactive Animation View -->
+                <div class="m-tab-view" id="feasto-ui">
+                  <div class="app-ui-frame food-app-ui">
+                    <div class="app-ui-header">
+                      <div class="app-ui-logo"><i class="fas fa-utensils"></i> FEASTO</div>
+                      <div class="app-ui-search"><i class="fas fa-search"></i> Search biryani, pizza...</div>
+                      <div class="app-ui-cart-pill"><i class="fas fa-shopping-bag"></i> <span>2 items</span></div>
+                    </div>
+
+                    <div class="app-banner-strip">
+                      <div class="app-banner-badge">HOT OFFER</div>
+                      <div class="app-banner-text">50% OFF &bull; Code: JAVAEE</div>
+                    </div>
+
+                    <div class="app-card-slider">
+                      <div class="app-mini-card">
+                        <div class="mini-card-icon"><i class="fas fa-bowl-rice"></i></div>
+                        <div class="mini-card-info">
+                          <span class="m-name">Hyderabadi Biryani</span>
+                          <span class="m-price">₹280 &bull; <i class="fas fa-star star"></i> 4.8</span>
+                        </div>
+                        <span class="mini-add-btn added"><i class="fas fa-check"></i> Added</span>
+                      </div>
+
+                      <div class="app-mini-card">
+                        <div class="mini-card-icon"><i class="fas fa-pizza-slice"></i></div>
+                        <div class="mini-card-info">
+                          <span class="m-name">Cheesy Margherita</span>
+                          <span class="m-price">₹369 &bull; <i class="fas fa-star star"></i> 4.7</span>
+                        </div>
+                        <span class="mini-add-btn"><i class="fas fa-plus"></i> Add</span>
+                      </div>
+                    </div>
+
+                    <div class="app-order-tracker">
+                      <div class="tracker-step done"><i class="fas fa-check-circle"></i> Cooked</div>
+                      <div class="tracker-line active"></div>
+                      <div class="tracker-step done pulse"><i class="fas fa-motorcycle"></i> In Transit</div>
+                      <div class="tracker-line"></div>
+                      <div class="tracker-step"><i class="fas fa-map-pin"></i> Delivered</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="m-tab-view" id="feasto-run">
+                  <div class="c-line prompt"><span class="user">thamesh@workstation</span>:<span class="dir">~/feasto</span>$ java -jar feasto-backend.jar --prod</div>
+                  <div class="c-line dim">[0.001s] Bootstrapping Catalina Tomcat Engine...</div>
+                  <div class="c-line alert">[0.012s] Connecting HikariCP Pool to jdbc:mysql://localhost:3306/feasto_db</div>
+                  <div class="c-line success">[0.025s] ✔ Database Connection Verified (Active Pool: 10/10)</div>
+                  <div class="c-line highlight">&gt;&gt; POST /api/v1/orders/create { items: 3, total: 649, payment: &quot;CONFIRMED&quot; }</div>
+                  <div class="c-line comment">// Executing SQL Transaction with auto-commit=false</div>
+                  <div class="c-line success">&gt;&gt; 200 OK &bull; Order ID #FST-8921 logged &bull; Delivery assigned</div>
+                  <div class="c-line cursor-line"><span class="user">thamesh@workstation</span>:<span class="dir">~/feasto</span>$ <span class="blink-cursor">█</span></div>
+                </div>
+
+                <div class="m-tab-view" id="feasto-schema">
+                  <div class="c-line highlight">CREATE TABLE restaurants (id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(100), rating DECIMAL(2,1));</div>
+                  <div class="c-line highlight">CREATE TABLE menu_items (id INT AUTO_INCREMENT PRIMARY KEY, rest_id INT, name VARCHAR(100), price DECIMAL(8,2), FOREIGN KEY (rest_id) REFERENCES restaurants(id));</div>
+                  <div class="c-line highlight">CREATE TABLE orders (id INT AUTO_INCREMENT PRIMARY KEY, user_id INT, status VARCHAR(20), total DECIMAL(8,2));</div>
+                  <div class="c-line success">-- 3NF Normalized relational schema indexed on FKs</div>
+                </div>
+              </div>
+
+              <!-- Live Execution Telemetry Bar (Fills Bottom Area) -->
+              <div class="card-bottom-telemetry">
+                <div class="telemetry-item"><span class="t-badge"><i class="fas fa-microchip"></i> ENGINE:</span> Tomcat 10.1</div>
+                <div class="telemetry-item"><span class="t-badge"><i class="fas fa-bolt"></i> LATENCY:</span> 18ms</div>
+                <div class="telemetry-item"><span class="t-badge"><i class="fas fa-shield"></i> INTEGRITY:</span> 100%</div>
+                <div class="telemetry-item status-live"><span class="ping-dot"></span> POOL ACTIVE</div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2: Military Asset Management System -->
+        <article class="matrix-dossier-card reverse-layout" data-scroll-reveal>
+          <div class="matrix-card-border-glow"></div>
+          <div class="matrix-scan-overlay"></div>
+
+          <div class="matrix-top-bar">
+            <div class="matrix-traffic-lights">
+              <span class="m-dot red"></span>
+              <span class="m-dot yellow"></span>
+              <span class="m-dot green"></span>
+            </div>
+            <div class="matrix-bar-title">
+              <i class="fas fa-shield-alt"></i>
+              <span>secure-sh - dossier://defense-rbac.mil.sys</span>
+            </div>
+            <div class="matrix-bar-status">
+              <span class="matrix-live-pill live-red"><span class="matrix-ping red"></span> CLASSIFIED</span>
+            </div>
+          </div>
+
+          <div class="matrix-grid-body">
+            <div class="matrix-briefing-pane">
+              <div class="matrix-dossier-index">
+                <span class="m-index-tag">FILE_REF #02</span>
+                <span class="m-class-tag">[DEFENSE_PORTAL]</span>
+              </div>
+
+              <h3 class="matrix-headline">Military Asset Management System</h3>
+
+              <p class="matrix-summary">
+                Developed a comprehensive full-stack defense application to track, allocate, and manage mission-critical military equipment and vehicle fleets with strict audit accountability and ironclad permissions.
+              </p>
+
+              <div class="matrix-specs-table">
+                <div class="matrix-spec-row">
+                  <span class="spec-label">SECURITY:</span>
+                  <span class="spec-val">Role-Based Access Control (RBAC)</span>
+                </div>
+                <div class="matrix-spec-row">
+                  <span class="spec-label">INTEGRITY:</span>
+                  <span class="spec-val">Cryptographic Audit Logging</span>
+                </div>
+                <div class="matrix-spec-row">
+                  <span class="spec-label">DATA ACCESS:</span>
+                  <span class="spec-val">Enterprise JDBC Driver &bull; MySQL</span>
+                </div>
+                <div class="matrix-spec-row">
+                  <span class="spec-label">HOSTING:</span>
+                  <span class="spec-val">Isolated On-Premises Tomcat Server</span>
+                </div>
+              </div>
+
+              <div class="matrix-tags-row">
+                <span>Java</span>
+                <span>JDBC</span>
+                <span>MySQL</span>
+                <span>Role-Based Auth</span>
+                <span>Apache Tomcat</span>
+              </div>
+
+              <div class="matrix-actions-row">
+                <a href="https://github.com/thameshraj247" target="_blank" rel="noopener noreferrer" class="matrix-btn primary">
+                  <i class="fab fa-github"></i>
+                  <span>VIEW_SOURCE.SH</span>
+                </a>
+                <button class="matrix-btn run-sim-btn" data-sim-target="sim-defense">
+                  <i class="fas fa-play"></i>
+                  <span>EXECUTE_SIM()</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="matrix-terminal-pane">
+              <div class="matrix-term-tabs">
+                <button class="m-term-tab active" data-tab="def-3d"><i class="fas fa-shield-halved"></i> 3D_SHIELD</button>
+                <button class="m-term-tab" data-tab="def-ui"><i class="fas fa-satellite-dish"></i> RADAR_UI</button>
+                <button class="m-term-tab" data-tab="def-run"><i class="fas fa-terminal"></i> AUDIT_LOG</button>
+                <button class="m-term-tab" data-tab="def-specs"><i class="fas fa-lock"></i> PROTOCOL</button>
+              </div>
+
+              <div class="matrix-console-box" id="sim-defense">
+                <!-- 3D Holographic Cyber Defense Shield Vault Model -->
+                <div class="m-tab-view active" id="def-3d">
+                  <div class="model-3d-viewport" data-model="defense">
+                    <div class="model-3d-scene">
+                      <div class="holo-orbit-ring ring-outer ring-red"></div>
+                      <div class="holo-orbit-ring ring-mid ring-red"></div>
+
+                      <!-- 3D Defense Octahedron / Security Core -->
+                      <div class="iso-shield-container">
+                        <div class="defense-shield-3d">
+                          <div class="shield-face s-front"><i class="fas fa-shield-halved"></i><span>RBAC LEVEL-4</span></div>
+                          <div class="shield-face s-back"><i class="fas fa-database"></i><span>AES-256</span></div>
+                          <div class="shield-face s-left"><i class="fas fa-key"></i><span>AUDIT</span></div>
+                          <div class="shield-face s-right"><i class="fas fa-truck-monster"></i><span>FLEET</span></div>
+                          <div class="shield-face s-top"><i class="fas fa-lock"></i><span>SECURE</span></div>
+                          <div class="shield-face s-bottom"></div>
+                        </div>
+                      </div>
+
+                      <div class="satellite-node node-1 def-node"><i class="fas fa-shield-cat"></i><span>Guard Auth</span></div>
+                      <div class="satellite-node node-2 def-node"><i class="fas fa-truck-arrow-right"></i><span>Depot Fleet</span></div>
+                      <div class="satellite-node node-3 def-node"><i class="fas fa-file-shield"></i><span>Ledger Sync</span></div>
+
+                      <div class="holo-ground-projector"></div>
+                    </div>
+                    <div class="model-3d-telemetry">
+                      <span><i class="fas fa-arrows-spin fa-spin"></i> 3D DEFENSE VAULT: ENCRYPTED</span>
+                      <span>STATUS: ROTATING 3D SHIELD</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Defense Radar Telemetry & Fleet Status UI/UX Mockup View -->
+                <div class="m-tab-view" id="def-ui">
+                  <div class="app-ui-frame defense-ui">
+                    <div class="defense-ui-top">
+                      <span class="def-code"><i class="fas fa-satellite"></i> SAT_LINK #DELTA-9</span>
+                      <span class="def-security-pill"><i class="fas fa-lock"></i> AES-256 RBAC</span>
+                    </div>
+
+                    <div class="radar-telemetry-grid">
+                      <!-- Animated Sweep Radar Scanner -->
+                      <div class="radar-scope-container">
+                        <div class="radar-circle circle-1"></div>
+                        <div class="radar-circle circle-2"></div>
+                        <div class="radar-axis-x"></div>
+                        <div class="radar-axis-y"></div>
+                        <div class="radar-sweep-beam"></div>
+                        <div class="radar-blip blip-1" title="Convoy North"></div>
+                        <div class="radar-blip blip-2" title="Armored Unit Beta"></div>
+                        <div class="radar-blip blip-3" title="Depot Base 01"></div>
+                      </div>
+
+                      <div class="defense-status-tiles">
+                        <div class="def-tile">
+                          <span class="tile-label">OPERATIONAL FLEET</span>
+                          <span class="tile-val highlight-green">124 / 124 (100%)</span>
+                        </div>
+                        <div class="def-tile">
+                          <span class="tile-label">AUTH ROLE</span>
+                          <span class="tile-val highlight-red">COMMANDER LVL-4</span>
+                        </div>
+                        <div class="def-tile">
+                          <span class="tile-label">DATABASE SYNC</span>
+                          <span class="tile-val">MySQL POOL: 14ms</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="defense-ticker-strip">
+                      <span class="ticker-dot"></span>
+                      <span class="ticker-text">RBAC LOG: Asset tracking handshake verified &bull; Depot audit ledger synced</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="m-tab-view" id="def-run">
+                  <div class="c-line prompt"><span class="user">admin@defense-vault</span>:<span class="dir">~/audit</span>$ ./rbac_auth_verify --user=COMMANDER</div>
+                  <div class="c-line dim">[SEC_KERNEL] Validating Session Token: 0x9F4B... Passed</div>
+                  <div class="c-line success">[RBAC_GATEWAY] Role 'COMMANDER' Level-4 Permission Granted</div>
+                  <div class="c-line highlight">&gt;&gt; FLEET_STATUS: 124 Heavy Tactical Units Ready (100% Operational)</div>
+                  <div class="c-line alert">[DEPOT_SYNC] Reallocated 12 transport convoys to North Sector Base</div>
+                  <div class="c-line success">&gt;&gt; TRANSACTION COMMITTED TO TAMPER-PROOF AUDIT LOG</div>
+                  <div class="c-line cursor-line"><span class="user">admin@defense-vault</span>:<span class="dir">~/audit</span>$ <span class="blink-cursor">█</span></div>
+                </div>
+
+                <div class="m-tab-view" id="def-specs">
+                  <div class="c-line highlight">PROTOCOL: Salted SHA-256 session credential hashing</div>
+                  <div class="c-line highlight">ISOLATION: Session filters reject unauthorized endpoint access</div>
+                  <div class="c-line highlight">DATA PERSISTENCE: Strict transactional rollback on failure</div>
+                  <div class="c-line success">-- Zero data leak audit standards met</div>
+                </div>
+              </div>
+
+              <!-- Live Execution Telemetry Bar (Fills Bottom Area) -->
+              <div class="card-bottom-telemetry">
+                <div class="telemetry-item"><span class="t-badge"><i class="fas fa-lock"></i> CIPHER:</span> SHA-256/AES</div>
+                <div class="telemetry-item"><span class="t-badge"><i class="fas fa-truck-pickup"></i> UNITS:</span> 124 Online</div>
+                <div class="telemetry-item"><span class="t-badge"><i class="fas fa-network-wired"></i> AUDIT:</span> Immutable</div>
+                <div class="telemetry-item status-live"><span class="ping-dot"></span> SECURE GUARD</div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3: Mirroring BookMyShow Landing Page -->
+        <article class="matrix-dossier-card" data-scroll-reveal>
+          <div class="matrix-card-border-glow"></div>
+          <div class="matrix-scan-overlay"></div>
+
+          <div class="matrix-top-bar">
+            <div class="matrix-traffic-lights">
+              <span class="m-dot red"></span>
+              <span class="m-dot yellow"></span>
+              <span class="m-dot green"></span>
+            </div>
+            <div class="matrix-bar-title">
+              <i class="fas fa-desktop"></i>
+              <span>chrome-dev - dossier://bookmyshow-landing.web</span>
+            </div>
+            <div class="matrix-bar-status">
+              <span class="matrix-live-pill"><span class="matrix-ping"></span> RENDERED</span>
+            </div>
+          </div>
+
+          <div class="matrix-grid-body">
+            <div class="matrix-briefing-pane">
+              <div class="matrix-dossier-index">
+                <span class="m-index-tag">FILE_REF #03</span>
+                <span class="m-class-tag">[FRONTEND_DEV]</span>
+              </div>
+
+              <h3 class="matrix-headline">Mirroring BookMyShow Landing Page</h3>
+
+              <p class="matrix-summary">
+                Engineered a high-fidelity front-end interface accurately replicating BookMyShow’s leading entertainment ticketing layout, dynamic event banners, and interactive category viewports.
+              </p>
+
+              <div class="matrix-specs-table">
+                <div class="matrix-spec-row">
+                  <span class="spec-label">LAYOUT:</span>
+                  <span class="spec-val">CSS Grid &bull; Dynamic Flexbox</span>
+                </div>
+                <div class="matrix-spec-row">
+                  <span class="spec-label">INTERACTION:</span>
+                  <span class="spec-val">Vanilla JavaScript ES6+ &bull; Carousels</span>
+                </div>
+                <div class="matrix-spec-row">
+                  <span class="spec-label">RESPONSIVENESS:</span>
+                  <span class="spec-val">100% Mobile, Tablet &amp; 4K Desktop</span>
+                </div>
+                <div class="matrix-spec-row">
+                  <span class="spec-label">PERFORMANCE:</span>
+                  <span class="spec-val">Sub-second paint &bull; 60 FPS Swipes</span>
+                </div>
+              </div>
+
+              <div class="matrix-tags-row">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript ES6+</span>
+                <span>VS Code</span>
+                <span>Responsive Grid</span>
+              </div>
+
+              <div class="matrix-actions-row">
+                <a href="https://github.com/thameshraj247" target="_blank" rel="noopener noreferrer" class="matrix-btn primary">
+                  <i class="fab fa-github"></i>
+                  <span>VIEW_SOURCE.SH</span>
+                </a>
+                <button class="matrix-btn run-sim-btn" data-sim-target="sim-bms">
+                  <i class="fas fa-play"></i>
+                  <span>EXECUTE_SIM()</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="matrix-terminal-pane">
+              <div class="matrix-term-tabs">
+                <button class="m-term-tab active" data-tab="bms-3d"><i class="fas fa-cubes"></i> 3D_THEATER</button>
+                <button class="m-term-tab" data-tab="bms-ui"><i class="fas fa-ticket-simple"></i> BROWSER_UI</button>
+                <button class="m-term-tab" data-tab="bms-run"><i class="fas fa-play"></i> LIGHTHOUSE</button>
+                <button class="m-term-tab" data-tab="bms-specs"><i class="fas fa-code"></i> CSS_GRID</button>
+              </div>
+
+              <div class="matrix-console-box" id="sim-bms">
+                <!-- 3D Holographic Interactive Curved Theater Cinema Stage Model -->
+                <div class="m-tab-view active" id="bms-3d">
+                  <div class="model-3d-viewport" data-model="theater">
+                    <div class="model-3d-scene">
+                      <div class="holo-orbit-ring ring-outer ring-cyan"></div>
+                      <div class="holo-orbit-ring ring-mid ring-cyan"></div>
+
+                      <!-- 3D Curved IMAX Curved Projection Screen -->
+                      <div class="theater-3d-stage">
+                        <div class="imax-curved-screen">
+                          <div class="imax-display-glow">
+                            <i class="fas fa-film"></i>
+                            <span>4K LASER IMAX</span>
+                          </div>
+                        </div>
+                        <!-- 3D Auditorium Seating Rows -->
+                        <div class="seating-tiers">
+                          <div class="seat-row row-front">
+                            <span class="seat"></span><span class="seat active"></span><span class="seat"></span><span class="seat active"></span>
+                          </div>
+                          <div class="seat-row row-mid">
+                            <span class="seat active"></span><span class="seat active"></span><span class="seat"></span><span class="seat"></span><span class="seat active"></span>
+                          </div>
+                          <div class="seat-row row-back">
+                            <span class="seat"></span><span class="seat active"></span><span class="seat active"></span><span class="seat"></span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="satellite-node node-1 theater-node"><i class="fas fa-clapperboard"></i><span>Tickets</span></div>
+                      <div class="satellite-node node-2 theater-node"><i class="fas fa-sliders"></i><span>Responsive</span></div>
+                      <div class="satellite-node node-3 theater-node"><i class="fas fa-bolt"></i><span>60 FPS</span></div>
+
+                      <div class="holo-ground-projector"></div>
+                    </div>
+                    <div class="model-3d-telemetry">
+                      <span><i class="fas fa-arrows-spin fa-spin"></i> 3D THEATER ENGINE: LIVE</span>
+                      <span>INTERACTION: REAL-TIME PERSPECTIVE</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- BookMyShow Entertainment Web UI/UX Mockup View -->
+                <div class="m-tab-view" id="bms-ui">
+                  <div class="app-ui-frame ticket-app-ui">
+                    <div class="ticket-ui-header">
+                      <div class="bms-logo-wrap"><span class="bms-mark">BMS</span> ticketing</div>
+                      <div class="bms-nav-links">
+                        <span class="active">Movies</span>
+                        <span>Events</span>
+                        <span>Plays</span>
+                        <span>Sports</span>
+                      </div>
+                      <div class="bms-city-pill"><i class="fas fa-location-dot"></i> Bengaluru</div>
+                    </div>
+
+                    <!-- Dynamic Carousel Hero Banner with Movie Poster Mockup -->
+                    <div class="bms-carousel-hero">
+                      <div class="bms-hero-poster">
+                        <div class="poster-overlay">
+                          <span class="movie-cert">U/A 16+</span>
+                          <h4 class="movie-title">INTERSTELLAR: IMAX RE-RELEASE</h4>
+                          <span class="movie-tags">Sci-Fi &bull; English &bull; 2h 49m</span>
+                          <button class="bms-book-now-btn"><i class="fas fa-ticket"></i> Book Seats</button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Live Movie Schedule Row -->
+                    <div class="bms-showtime-row">
+                      <div class="showtime-card">
+                        <span class="hall-name">PVR: Forum Mall</span>
+                        <div class="times-pills">
+                          <span class="time-pill avail">11:30 AM</span>
+                          <span class="time-pill fast">03:15 PM</span>
+                          <span class="time-pill avail">07:45 PM</span>
+                          <span class="time-pill almost">10:45 PM</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="m-tab-view" id="bms-run">
+                  <div class="c-line prompt"><span class="user">dev@frontend</span>:<span class="dir">~/bms</span>$ npx lighthouse-ci --view</div>
+                  <div class="c-line success">[AUDIT] Performance: 98 / 100</div>
+                  <div class="c-line success">[AUDIT] Accessibility: 100 / 100</div>
+                  <div class="c-line success">[AUDIT] Best Practices: 100 / 100</div>
+                  <div class="c-line highlight">&gt;&gt; First Contentful Paint: 0.42s</div>
+                  <div class="c-line highlight">&gt;&gt; Cumulative Layout Shift: 0.000</div>
+                  <div class="c-line success">&gt;&gt; ALL CORE WEB VITALS PASSED (GREEN)</div>
+                  <div class="c-line cursor-line"><span class="user">dev@frontend</span>:<span class="dir">~/bms</span>$ <span class="blink-cursor">█</span></div>
+                </div>
+
+                <div class="m-tab-view" id="bms-specs">
+                  <div class="c-line highlight">grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));</div>
+                  <div class="c-line highlight">scroll-snap-type: x mandatory;</div>
+                  <div class="c-line highlight">touch-action: pan-y pinch-zoom;</div>
+                  <div class="c-line success">-- Zero layout drift with smooth CSS hardware acceleration</div>
+                </div>
+              </div>
+
+              <!-- Live Execution Telemetry Bar (Fills Bottom Area) -->
+              <div class="card-bottom-telemetry">
+                <div class="telemetry-item"><span class="t-badge"><i class="fas fa-gauge-high"></i> SCORE:</span> 98 Lighthouse</div>
+                <div class="telemetry-item"><span class="t-badge"><i class="fas fa-mobile-screen"></i> VIEWPORT:</span> 100% Fluid</div>
+                <div class="telemetry-item"><span class="t-badge"><i class="fas fa-film"></i> SHOWTIMES:</span> Live Sync</div>
+                <div class="telemetry-item status-live"><span class="ping-dot"></span> 60 FPS RENDER</div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <!-- Projects Section Bottom Cyber Matrix Ticker Stream -->
+      <div class="projects-bottom-stream">
+        <div class="stream-badge"><i class="fas fa-terminal"></i> LIVE METRICS</div>
+        <div class="stream-marquee">
+          <div class="stream-track">
+            <span><i class="fas fa-check-circle text-green"></i> ALL BACKEND SERVICES OPERATIONAL</span>
+            <span class="stream-sep">&bull;</span>
+            <span><i class="fas fa-database text-red"></i> MYSQL 8.0 HIKARICP POOL ACTIVE</span>
+            <span class="stream-sep">&bull;</span>
+            <span><i class="fas fa-server text-blue"></i> TOMCAT 10.1 SERVLET DISPATCHER READY</span>
+            <span class="stream-sep">&bull;</span>
+            <span><i class="fas fa-code-commit text-yellow"></i> 100% CLEAN OBJECT-ORIENTED CODEBASE</span>
+            <span class="stream-sep">&bull;</span>
+            <span><i class="fas fa-shield-halved text-red"></i> RBAC PERMISSIONS VERIFIED</span>
+            <span class="stream-sep">&bull;</span>
+            <span><i class="fas fa-bolt text-green"></i> SUB-SECOND VIEWPORT RENDERING</span>
+          </div>
+        </div>
+        <div class="stream-counter">
+          <span class="counter-num">3 / 3</span>
+          <span class="counter-label">BUILDS PASSING</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="section-spacing" style="background: rgba(14, 15, 20, 0.45); overflow: hidden;">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Career Journey</span>
+        <h2 class="section-title">Experience &amp; Education</h2>
+        <p class="section-subtitle">A chronological story of technical growth, hands-on enterprise development, and academic foundations.</p>
+      </div>
+
+      <!-- Modern Interactive Vertical Progress Timeline (Shadcn Timeline-01 Style) -->
+      <div class="modern-timeline-container" id="modernTimeline">
+        <!-- Center Progress Spine & Glowing Dynamic Tracer Dot -->
+        <div class="timeline-spine-track"></div>
+        <div class="timeline-spine-fill" id="timelineSpineFill">
+          <div class="timeline-tracer-dot"></div>
+        </div>
+
+        <div class="timeline-nodes-wrap">
+          <!-- Item 1: Experience (Left on Desktop, Image Right) -->
+          <div class="timeline-node is-even" data-timeline-reveal>
+            <div class="timeline-node-content">
+              <span class="timeline-node-date">(May 2025 – Nov 2025)</span>
+              <h3 class="timeline-node-role">Java Full Stack Developer — Intern</h3>
+              <div class="timeline-node-org">
+                <i class="fas fa-building"></i>
+                <span>Tap Academy • BTM Layout, Bengaluru</span>
+              </div>
+              <p class="timeline-node-desc">
+                Engineered robust full-stack web applications and micro-modules using Core Java, Servlets, JSP, Spring Boot, Hibernate, and MySQL. Implemented responsive user interfaces with HTML5, CSS3, JavaScript, and managed version workflows with Git and Maven.
+              </p>
+            </div>
+            <div class="timeline-node-media">
+              <div class="timeline-media-card">
+                <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80" alt="Java Full Stack Development" class="timeline-card-img">
+                <div class="timeline-card-vignette"></div>
+                <div class="timeline-badge-pill">
+                  <i class="fas fa-code"></i>
+                  <span>Full Stack Certified</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2: Education (Right on Desktop, Image Left) -->
+          <div class="timeline-node is-odd" data-timeline-reveal>
+            <div class="timeline-node-content">
+              <span class="timeline-node-date">(Dec 2021 – May 2025)</span>
+              <h3 class="timeline-node-role">B.Tech in Artificial Intelligence &amp; Data Science</h3>
+              <div class="timeline-node-org">
+                <i class="fas fa-graduation-cap"></i>
+                <span>Paavai College of Engineering</span>
+              </div>
+              <p class="timeline-node-desc">
+                Completed undergraduate engineering degree with a <strong>CGPA of 8.21 / 10.0</strong>. Deep emphasis on core programming paradigms, Object-Oriented Design, data structures, machine intelligence algorithms, and relational database management.
+              </p>
+            </div>
+            <div class="timeline-node-media">
+              <div class="timeline-media-card">
+                <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=800&q=80" alt="Computer Science & Engineering" class="timeline-card-img">
+                <div class="timeline-card-vignette"></div>
+                <div class="timeline-badge-pill">
+                  <i class="fas fa-award"></i>
+                  <span>CGPA: 8.21</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section-spacing">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Contact</span>
+        <h2 class="section-title">Let's Connect</h2>
+        <p class="section-subtitle">Interested in collaborating or discussing an associate software developer opportunity? Feel free to reach out directly.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <a href="mailto:tamilthamesh247@gmail.com" class="pro-card contact-method">
+            <div class="method-icon"><i class="fas fa-envelope"></i></div>
+            <div class="method-text">
+              <span>Email</span>
+              <strong>tamilthamesh247@gmail.com</strong>
+            </div>
+          </a>
+
+          <a href="tel:+917200700247" class="pro-card contact-method">
+            <div class="method-icon"><i class="fas fa-phone"></i></div>
+            <div class="method-text">
+              <span>Phone</span>
+              <strong>+91 72007 00247</strong>
+            </div>
+          </a>
+
+          <div class="pro-card contact-method">
+            <div class="method-icon"><i class="fas fa-location-dot"></i></div>
+            <div class="method-text">
+              <span>Location</span>
+              <strong>Krishnagiri | Tamil Nadu 635 203</strong>
+            </div>
+          </div>
+        </div>
+
+        <div class="pro-card contact-form">
+          <div id="formStatus" class="form-status"></div>
+
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" class="form-control" placeholder="John Doe" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" class="form-control" placeholder="john@example.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" class="form-control" placeholder="Job Opportunity / Inquiries" required>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" class="form-control" placeholder="Write your message here..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%;">
+              <span>Send Message</span>
+              <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div>
+          &copy; 2026 Thamesh raj G. All rights reserved.
+        </div>
+        <div style="display: flex; gap: 1.5rem;">
+          <a href="https://github.com/thameshraj247" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">GitHub</a>
+          <a href="https://www.linkedin.com/in/thamesh-raj-g-647050278/" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">LinkedIn</a>
+          <a href="mailto:tamilthamesh247@gmail.com" style="color: inherit; text-decoration: none;">Email</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="main.js"></script>
+</body>
+</html>
