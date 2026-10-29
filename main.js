@@ -492,6 +492,7 @@ function initTimelineScrollAnimation() {
 
   // Node Entrance Observer
   if ('IntersectionObserver' in window) {
+    const isMobile = window.innerWidth <= 768;
     const nodeObserver = new IntersectionObserver((entries, obs) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
@@ -500,12 +501,12 @@ function initTimelineScrollAnimation() {
         }
       });
     }, {
-      threshold: 0.2,
-      rootMargin: '0px 0px -50px 0px'
+      threshold: isMobile ? 0.05 : 0.15,
+      rootMargin: isMobile ? '0px 0px 40px 0px' : '0px 0px -50px 0px'
     });
 
     nodes.forEach((node, index) => {
-      node.style.transitionDelay = `${index * 0.15}s`;
+      node.style.transitionDelay = isMobile ? '0s' : `${index * 0.15}s`;
       nodeObserver.observe(node);
     });
   } else {
